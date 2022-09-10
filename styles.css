@@ -1,7 +1,32 @@
-#cs1300-gallery {
+body {
   background-color: lightblue;
+  min-height: 100vh;
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  padding: 5% 10%;
+  text-align: center;
 }
 
-.gallery-container {
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+}
+
+.fruit {
+  font-size: 40px;
+}
+
+img {
+  width:  600px;
+  height: 600px;
+  padding: 15px;
+  object-fit: cover;
+}
+
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 }
